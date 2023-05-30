@@ -7,9 +7,9 @@ if cap.isOpened():
 	while(1):
 		ret, frame = cap.read()
 		cv2.imshow("1",frame)
-		if cv2.waitKey(2) & 0xff == ord('q'):
+		if cv2.waitKey(2) & 0xFF == ord('q'):
 			break
 cap.release()
 cv2.destroyAllWindows()
 
-img = cv2.imread('dice.png')
+img = cv2.imread('C:\\Users\\admin\\Desktop\\dice.png')
