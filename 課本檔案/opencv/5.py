@@ -1,3 +1,4 @@
+#導入open-cv2
 import cv2
 
 img = cv2.imread('C:\\Users\\admin\\Desktop\\dice.png')
