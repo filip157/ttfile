@@ -14,5 +14,7 @@ n = np.float32([[1, 0, quarter_width], [0, 1, quarter_height]])
 
 print('移動矩陣:\n', n)
 img_translation = cv2.warpAffine(img, n, (width, height))
+cv2.imshow('Before translation',img)
+cv2.imshow('After translation',img_translation)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

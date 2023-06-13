@@ -12,4 +12,4 @@ if cap.isOpened():
 cap.release()
 cv2.destroyAllWindows()
 
-img = cv2.imread('C:\\Users\\admin\\Desktop\\dice.png')
+img = cv2.imread('dice.png')

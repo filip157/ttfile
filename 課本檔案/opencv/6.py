@@ -1,5 +1,5 @@
 import cv2
-img = cv2.imread('C:\\Users\\admin\\Desktop\\dice.png')
+img = cv2.imread('dice.png')
 img_HSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 cv2.imshow('HSV Image',img_HSV)
 cv2.imshow('Hue Channel',img_HSV[:, :,0])

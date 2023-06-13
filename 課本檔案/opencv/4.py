@@ -2,7 +2,7 @@
 import cv2
 
 #將圖片讀入img
-img = cv2.imread('C:\\Users\\admin\\Desktop\\dice.png')
+img = cv2.imread('dice.png')
 #顯示img，開啟名稱為copy_img
 cv2.imshow('copy_img',img)
 #輸出img的shape
